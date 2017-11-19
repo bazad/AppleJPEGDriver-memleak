@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558CFA481FC0E65400158C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558CFA471FC0E65400158C5F /* AppDelegate.m */; };
+		558CFA4B1FC0E65400158C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558CFA4A1FC0E65400158C5F /* ViewController.m */; };
+		558CFA4E1FC0E65400158C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558CFA4C1FC0E65400158C5F /* Main.storyboard */; };
+		558CFA501FC0E65400158C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558CFA4F1FC0E65400158C5F /* Assets.xcassets */; };
+		558CFA531FC0E65400158C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558CFA511FC0E65400158C5F /* LaunchScreen.storyboard */; };
+		558CFA561FC0E65400158C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558CFA551FC0E65400158C5F /* main.m */; };
+		55FFBFFA1FC0F8480021E129 /* AppleJPEGDriver-memleak.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FFBFF91FC0F8480021E129 /* AppleJPEGDriver-memleak.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		558CFA431FC0E65400158C5F /* AppleJPEGDriver-memleak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleJPEGDriver-memleak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558CFA461FC0E65400158C5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		558CFA471FC0E65400158C5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		558CFA491FC0E65400158C5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		558CFA4A1FC0E65400158C5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		558CFA4D1FC0E65400158C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558CFA4F1FC0E65400158C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		558CFA521FC0E65400158C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		558CFA541FC0E65400158C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558CFA551FC0E65400158C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55FFBFF81FC0F8480021E129 /* AppleJPEGDriver-memleak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleJPEGDriver-memleak.h"; sourceTree = "<group>"; };
+		55FFBFF91FC0F8480021E129 /* AppleJPEGDriver-memleak.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AppleJPEGDriver-memleak.c"; sourceTree = "<group>"; };
+		55FFBFFB1FC0FCD90021E129 /* IOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558CFA401FC0E65400158C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558CFA3A1FC0E65400158C5F = {
+			isa = PBXGroup;
+			children = (
+				558CFA451FC0E65400158C5F /* AppleJPEGDriver-memleak */,
+				558CFA441FC0E65400158C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558CFA441FC0E65400158C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558CFA431FC0E65400158C5F /* AppleJPEGDriver-memleak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558CFA451FC0E65400158C5F /* AppleJPEGDriver-memleak */ = {
+			isa = PBXGroup;
+			children = (
+				558CFA461FC0E65400158C5F /* AppDelegate.h */,
+				558CFA471FC0E65400158C5F /* AppDelegate.m */,
+				558CFA491FC0E65400158C5F /* ViewController.h */,
+				558CFA4A1FC0E65400158C5F /* ViewController.m */,
+				55FFBFFB1FC0FCD90021E129 /* IOKit.h */,
+				55FFBFF81FC0F8480021E129 /* AppleJPEGDriver-memleak.h */,
+				55FFBFF91FC0F8480021E129 /* AppleJPEGDriver-memleak.c */,
+				558CFA4C1FC0E65400158C5F /* Main.storyboard */,
+				558CFA4F1FC0E65400158C5F /* Assets.xcassets */,
+				558CFA511FC0E65400158C5F /* LaunchScreen.storyboard */,
+				558CFA541FC0E65400158C5F /* Info.plist */,
+				558CFA551FC0E65400158C5F /* main.m */,
+			);
+			path = "AppleJPEGDriver-memleak";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558CFA421FC0E65400158C5F /* AppleJPEGDriver-memleak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558CFA591FC0E65400158C5F /* Build configuration list for PBXNativeTarget "AppleJPEGDriver-memleak" */;
+			buildPhases = (
+				558CFA3F1FC0E65400158C5F /* Sources */,
+				558CFA401FC0E65400158C5F /* Frameworks */,
+				558CFA411FC0E65400158C5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleJPEGDriver-memleak";
+			productName = "AppleJPEGDriver-memleak";
+			productReference = 558CFA431FC0E65400158C5F /* AppleJPEGDriver-memleak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558CFA3B1FC0E65400158C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Brandon Azad";
+				TargetAttributes = {
+					558CFA421FC0E65400158C5F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 558CFA3E1FC0E65400158C5F /* Build configuration list for PBXProject "AppleJPEGDriver-memleak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558CFA3A1FC0E65400158C5F;
+			productRefGroup = 558CFA441FC0E65400158C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558CFA421FC0E65400158C5F /* AppleJPEGDriver-memleak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558CFA411FC0E65400158C5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558CFA531FC0E65400158C5F /* LaunchScreen.storyboard in Resources */,
+				558CFA501FC0E65400158C5F /* Assets.xcassets in Resources */,
+				558CFA4E1FC0E65400158C5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558CFA3F1FC0E65400158C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558CFA4B1FC0E65400158C5F /* ViewController.m in Sources */,
+				558CFA561FC0E65400158C5F /* main.m in Sources */,
+				558CFA481FC0E65400158C5F /* AppDelegate.m in Sources */,
+				55FFBFFA1FC0F8480021E129 /* AppleJPEGDriver-memleak.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		558CFA4C1FC0E65400158C5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558CFA4D1FC0E65400158C5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558CFA511FC0E65400158C5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558CFA521FC0E65400158C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558CFA571FC0E65400158C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		558CFA581FC0E65400158C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558CFA5A1FC0E65400158C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AppleJPEGDriver-memleak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.bazad.AppleJPEGDriver-memleak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		558CFA5B1FC0E65400158C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AppleJPEGDriver-memleak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.bazad.AppleJPEGDriver-memleak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558CFA3E1FC0E65400158C5F /* Build configuration list for PBXProject "AppleJPEGDriver-memleak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CFA571FC0E65400158C5F /* Debug */,
+				558CFA581FC0E65400158C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558CFA591FC0E65400158C5F /* Build configuration list for PBXNativeTarget "AppleJPEGDriver-memleak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CFA5A1FC0E65400158C5F /* Debug */,
+				558CFA5B1FC0E65400158C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558CFA3B1FC0E65400158C5F /* Project object */;
+}
